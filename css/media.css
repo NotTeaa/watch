@@ -1,0 +1,78 @@
+@media(max-width:1199px){
+    
+}
+
+
+
+@media(max-width:991px) {
+    .header__icon-title{
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    .section__button-text{
+        margin-bottom: 10px;
+    }
+    .hand__text {
+        margin-top: 28px;
+    }
+}
+
+@media(max-width:767px){
+    .hand__button{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .hand__text-title{
+        font-size: 26px;
+        margin-bottom: 21px;
+    }
+    .slider__text-text {
+        font-size: 40px;
+        color: #333333;
+        margin-bottom: 16px;
+        margin-top: 15px;
+    }
+    .slider__title {
+        margin-bottom: 12px;
+    }
+    .slider__button {
+        display: flex;
+        justify-content: space-between;
+    }
+    .slider__text-button {
+        padding-right: 11px;
+        padding-left: 11px;
+    }
+    .slider__title-button {
+        padding-left: 9px;
+        padding-right: 10px;
+    }
+}
+
+@media(max-width:512px){
+    .hand__text-title {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:444px){
+    .section__button-text{
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+    .section__img-media{
+        width: 90%;
+    }
+}
+
+@media(max-width:575px){
+    .contact__text-text{
+        margin-top: 15px;
+    }
+    .contact__text-block{
+        margin-top: 15px;
+    }
+}
